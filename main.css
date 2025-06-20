@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("images/theatre.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 1200px;
+}
+
+h1 .fancy-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  color: #f9d342;
+  text-shadow: 2px 2px 6px #000;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.greeting {
+  font-size: 1.3rem;
+  color: #f9d342;
+  margin-top: 15px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f9d342;
+  color: black;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ffc107;
+}
+
+.more-btn {
+  background-color: #00d1b2;
+  color: white;
+}
+
+.more-btn:hover {
+  background-color: #00b89c;
+}
+
+.video-container {
+  margin-top: 30px;
+}
+
+.controls {
+  margin-top: 20px;
+}

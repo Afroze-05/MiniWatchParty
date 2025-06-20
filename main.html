@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Watch Party</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Quicksand&display=swap" rel="stylesheet">
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 <span class="fancy-title">Mini Watch Party</span></h1>
+
+    <input type="text" id="room" placeholder="Enter Your Name" />
+    <button onclick="joinRoom()">Join</button>
+
+    <p id="greeting" class="greeting"></p>
+
+    <div class="video-container">
+      <div id="player"></div>
+    </div>
+
+    <div class="controls">
+      <button onclick="playVideo()">▶️ Play</button>
+      <button onclick="pauseVideo()">⏸️ Pause</button>
+      <a href="purpose.html"><button class="more-btn">More</button></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
